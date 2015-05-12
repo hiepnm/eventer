@@ -1,0 +1,18 @@
+Eventer
+Là chương trình quản lý event.
+*) Người dùng thường có thể.
+- Xem được các event hot do hệ thống server cung cấp. (tính năng chính)
+- Đăng ký, đăng nhập, để có account và account VIP.
++ Thuộc 1 hay nhiều tổ chức.
++ Tên và id duy nhất. (hiepnm2, 102590)
++
+- Đánh gía sự kiện theo các tiêu chí người tạo sự kiện đưa ra.
+- Chọn lĩnh vực event quan tâm để theo rõi.
+*) Người dùng có account có thể có thêm tính năng:
+- Tạo event cho cá nhân hay tổ chức.
+- Mời người cùng tổ chức tham gia event. (invite local)
+- Xem được event được mời.
+- Đưa tiêu chí đánh gía sự kiện.
+- Đăng ký theo dõi sự kiện của 1 tổ chức, khi tổ chức tạo sự kiện thì họ sẽ thấy được.
+*) Những người có account VIP có thể có thêm tính năng:
+- Mời người thuộc tổ chức của mình hay global. (invite global)

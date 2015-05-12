@@ -1,0 +1,10 @@
+*/bin
+*/assets
+*/.settings
+*/libs
+.classpath
+.project
+project.properties
+proguard-project.txt
+.metadata/
+.recommenders/
