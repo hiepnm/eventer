@@ -8,3 +8,4 @@ project.properties
 proguard-project.txt
 .metadata/
 .recommenders/
+eventer.ldb
