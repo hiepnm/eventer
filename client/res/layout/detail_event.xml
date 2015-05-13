@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/svDetailEvent"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/detail_event"
-    android:padding="5dip"
-    android:textSize="32sp" >
-    
-
-</TextView>
+    android:layout_height="match_parent" >
+    <LinearLayout 
+        android:id="@+id/llDetailEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/tv_name_detail_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32sp" />
+        <TextView
+            android:id="@+id/tv_starttime_detail_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32sp" />
+        <TextView
+            android:id="@+id/tv_countdown_detail_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32sp" />
+        <TextView
+            android:id="@+id/tv_endtime_detail_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32sp" />
+		<TextView 
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/tv_detail_event"
+			android:textSize="32sp" />
+    </LinearLayout>
+</ScrollView>

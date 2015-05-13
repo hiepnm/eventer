@@ -17,7 +17,7 @@ public class EventDetailFragment extends Fragment {
 	@Override
 	public void onActivityCreated(Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
-		mDetailEventTextView = (TextView)getActivity().findViewById(R.id.detail_event);
+		mDetailEventTextView = (TextView)getActivity().findViewById(R.id.tv_detail_event);
 	}
 	
 	public int getShownIndex() {

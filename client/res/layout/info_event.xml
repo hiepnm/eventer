@@ -3,4 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/item_event_info" >
+    <TextView 
+        android:id="@+id/tv_name_info_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp" />
+    <TextView 
+        android:id="@+id/tv_sumary_info_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp" />
+    <TextView 
+        android:id="@+id/tv_countdown_info_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp" />
 </RelativeLayout>

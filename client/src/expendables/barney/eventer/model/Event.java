@@ -6,11 +6,13 @@ public class Event {
 	private int mStartTime;
 	private int mEndTime;
 	private String mName;
+	private String mSumary;
 	private String mDetail;
 	
-	public Event(int id, String name, String detail) {
+	public Event(int id, String name, String sumary, String detail) {
 		mID = id;
 		mName = name;
+		mSumary = sumary;
 		mDetail = detail;
 	}
 	
