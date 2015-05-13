@@ -2,6 +2,6 @@
 
     <string name="app_name">UploadTest</string>
 	<string name="textHello">HelloWorld</string>
-	<string name="tab_name_global">Global</string>
-	<string name="tab_name_owner">My Events</string>
+	<string name="tab_name_global">Chung</string>
+	<string name="tab_name_owner">Sự kiện của tôi</string>
 </resources>

@@ -6,10 +6,12 @@ public class Event {
 	private int mStartTime;
 	private int mEndTime;
 	private String mName;
+	private String mDetail;
 	
-	public Event(int id, String name) {
+	public Event(int id, String name, String detail) {
 		mID = id;
 		mName = name;
+		mDetail = detail;
 	}
 	
 	public Boolean isHappening() {
@@ -19,5 +21,9 @@ public class Event {
 	
 	public String getName() {
 		return mName;
+	}
+	
+	public String getDetail() {
+		return mDetail;
 	}
 }
